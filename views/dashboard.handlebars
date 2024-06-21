@@ -1,0 +1,32 @@
+{{#if user.posts.length}}
+<div class="row mb-5 post-column">
+    <h2>Your Dashboard</h2>
+    {{#each user.posts as |post| }}
+    <div class="col s12 m10 offset-m1">
+        <div class="post" data-post-id="{{post.id}}">
+            <h2>{{post.title}}</h2>
+            <h5>Created on {{post.date}}</h5>
+            <p>{{post.body}}</p>
+            <div class="form-container">
+                <a href="/editPost/{{post.id}}" id="editPost">Edit</a>
+                <button class="btn btn-primary" id="delete-btn" type="submit">Delete</button>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+    <div>
+       <a href="/newPost" id="create_post">Create New Post</a> <!-- Updated to match the route /newPost -->
+    </div>
+</div>
+{{else}}
+<div class="mb-5">
+    <div class="col s12 m10 offset-m1">
+        <div class="post">
+            <h2>Your Dashboard</h2>
+            <p>No posts to display. Create your first post!</p>
+            <a href="/newPost" id="create_post">Create New Post</a> <!-- Ensure consistency with /newPost -->
+        </div>
+    </div>
+</div>          
+{{/if}}
+<script src="/js/delete.js"></script>

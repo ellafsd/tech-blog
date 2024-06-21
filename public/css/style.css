@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-y: auto; /* Allow the body to scroll */
+}
+
+.post-container{
+    border: 2px solid #444; 
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin: 0 10px;
+}
+
+.navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.navbar-menu a:hover {
+    background-color: #575757;
+}
+
+
+.navbar-menu {
+    margin-left: auto; 
+}
+
+
+main {
+    padding-top: 60px;
+    max-width: 1200px;
+    margin: 80px auto; 
+    padding: 0 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+#comments {
+    margin-top: 20px;
+}
+
+.comment-box {
+    border: 1px solid #444; /* Border for each comment */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8; /* Light background for contrast */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+}
+
+.comment-content {
+    margin-bottom: 10px; /* Space between content and footer */
+}
+
+.comment-footer {
+    font-size: 0.9em;
+    color: #666; /* Lighter color for footer text */
+    border-top: 1px solid #ddd; /* Separator between content and footer */
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+/* Comment form styling */
+#comment-form {
+    margin-top: 20px;
+}
+
+#comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#comment-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#comment-form button:hover {
+    background-color: #575757;
+}
+
+/* New Post Form Styling */
+.new-post-form {
+    max-width: 600px;
+    margin: 80px auto; /* Ensure there's space for the footer */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.new-post-form h1 {
+    margin-bottom: 20px;
+}
+
+.new-post-form .form-group {
+    margin-bottom: 15px;
+}
+
+.new-post-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.new-post-form input,
+.new-post-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.new-post-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.new-post-form button:hover {
+    background-color: #575757;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Change from fixed to relative to allow scrolling */
+    width: 100%;
+}
+
+/* Additional styles for page content */
+h1 {
+    margin-top: 0;
+}

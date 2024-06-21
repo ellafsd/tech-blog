@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Concert Alerts: Stay Tuned!",
+    "content": "A mobile app that will send you notifications whenever a concert is playing in your area.",
+    "user_id": 1
+  },
+  {
+    "title": "Daily Tech Quiz: Sharpen Your Skills",
+    "content": "A web app that will give users 10 new technical questions each day and track their progress in areas like programming, cybersecurity, database architecture, and more!",
+    "user_id": 2
+  },
+  {
+    "title": "Maze Runner: Test Your Reflexes",
+    "content": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
+    "user_id": 3
+  },
+  {
+    "title": "Smart Home Integration Simplified",
+    "content": "An in-depth guide on integrating various smart home devices seamlessly for a connected and automated home environment.",
+    "user_id": 1
+  },
+  {
+    "title": "Mastering Cloud Computing",
+    "content": "A comprehensive look at cloud computing technologies, best practices, and the future of cloud services.",
+    "user_id": 2
+  },
+  {
+    "title": "The Evolution of Artificial Intelligence",
+    "content": "An exploration of AI advancements, applications, and the ethical considerations surrounding AI technology.",
+    "user_id": 3
+  },
+  {
+    "title": "Building Resilient Web Applications",
+    "content": "Techniques and tools for creating web applications that are robust, scalable, and able to handle high traffic.",
+    "user_id": 1
+  },
+  {
+    "title": "Cybersecurity Best Practices for 2024",
+    "content": "A guide to the latest cybersecurity strategies, tools, and practices to protect your data and systems.",
+    "user_id": 2
+  },
+  {
+    "title": "Data Science for Beginners",
+    "content": "An introductory guide to data science concepts, tools, and techniques for aspiring data scientists.",
+    "user_id": 3
+  },
+  {
+    "title": "Mobile Development Trends to Watch",
+    "content": "A look at the latest trends in mobile app development, including new frameworks, tools, and best practices.",
+    "user_id": 1
+  }
+]
